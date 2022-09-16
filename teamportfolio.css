@@ -1,3 +1,5 @@
+/* heading section */
+
 .header {
     display: flex;
     justify-content: center;
@@ -9,14 +11,24 @@
 
 .teamname{
     margin-top: 25px;
-    font-family: 'Rubik Moonrocks', cursive;    
+    font-family: 'Rajdhani', cursive;
     color : rgb(255, 255, 255);
 }
+
+/*  LANDPAGE LINK DECOR */
+
+.landpage-link{
+    text-decoration: none;
+    color : black;
+}
+
+/* VIKAS SECTION */
+
 
 .vikas-info{
     display: flex;
     justify-content: center;
-    padding-right: 400px;
+    padding-right: 250px;
     padding-top: 100px;
 }
 
@@ -24,16 +36,190 @@
     height : 175px;
     width : 175px;
     border-radius: 85px;
+    transition: opacity 0.3s;
 }
 
 .vikas-img:hover{
     cursor : pointer;
+    opacity : 0.8;
+}
+
+.vikas:hover{
+    cursor : pointer;
+    opacity : 0.8;
 }
 
 
 .vikas{
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 40px;
     padding-top: 40px;
     padding-left: 50px;
+    margin: 0;
+    height : 40px;
+}
+
+.name1{
     font-size : 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rajdhani', cursive;
+}
+
+.vikas-role{
+    margin : 0;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: 'Rajdhani', cursive;
+
+}
+
+/*  MAVIYA SECTION */
+
+.maviya-info{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+
+.maviya-img{
+    height : 175px;
+    width : 175px;
+    border-radius: 85px;
+    transition: opacity 0.3s;
+}
+
+.maviya-img:hover{
+    cursor : pointer;
+    opacity : 0.8;
+}
+
+.maviya:hover{
+    cursor : pointer;
+    opacity : 0.8;
+}
+
+
+.maviya{
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 40px;
+    padding-top: 40px;
+    padding-left: 50px;
+    margin: 0;
+    height : 40px;
+}
+
+.name2{
+    font-size : 30px;
+    font-family: 'Rajdhani', cursive;
+    margin-right: 10px;
+}
+
+.maviya-role{
+    margin : 0;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: 'Rajdhani', cursive;
+}
+
+
+/*  HARSHWARDHAN SECTION */
+
+.harsh-info{
+    display: flex;
+    justify-content: center;
+    padding-right: 250px;
+    padding-top: 100px;
+}
+
+.harsh-img{
+    height : 175px;
+    width : 175px;
+    border-radius: 85px;
+    transition: opacity 0.3s;
+}
+
+.harsh-img:hover{
+    cursor : pointer;
+    opacity : 0.8;
+}
+
+.harsh:hover{
+    cursor : pointer;
+    opacity : 0.8;
+}
+
+
+.harsh{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 40px;
+    padding-top: 40px;
+    margin: 0;
+    height : 40px;
+}
+
+.name3{
+    font-size : 30px;
+    font-family: 'Rajdhani', cursive;
+}
+
+.harsh-role{
+    margin : 0;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: 'Rajdhani', cursive;
+
+}
+
+
+/* ROHIT SECTION */
+
+
+.rohit-info{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.rohit-img{
+    height : 175px;
+    width : 175px;
+    border-radius: 85px;
+    transition: opacity 0.3s;
+}
+
+.rohit-img:hover{
+    cursor : pointer;
+    opacity : 0.8;
+}
+
+.rohit:hover{
+    cursor : pointer;
+    opacity : 0.8;
+}
+
+
+.rohit{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 40px;
+    padding-top: 40px;
+    padding-left: 50px;
+    margin: 0;
+    height : 40px;
+}
+
+.name4{
+    font-size : 30px;
+    font-family: 'Rajdhani', cursive;
+    margin-right: 10px;
+}
+
+.rohit-role{
+    margin : 0;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: 'Rajdhani', cursive;
 }
