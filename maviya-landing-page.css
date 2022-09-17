@@ -25,9 +25,8 @@
 /* page */
 
 .page{
-    display: grid;
-    grid-template-columns: 420px;
     display: flex;
+    padding-left: 10px;
 }
 
 /* vertical line */
@@ -41,10 +40,15 @@
 
 /* left-side */
 
-.name{
+.name,
+.role{
     color: rgb(0, 0, 0);
     font-family: 'Rajdhani', cursive;
     font-size : 28px; 
+}
+
+.maviya{
+    text-decoration: underline;
 }
 
 .maviya-img{
